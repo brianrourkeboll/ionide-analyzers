@@ -19,6 +19,7 @@
         <Compile Include="Suggestion\EmptyStringAnalyzer.fs"/>
         <Compile Include="Suggestion\HandleOptionGracefullyAnalyzer.fs"/>
         <Compile Include="Style\PostfixGenericsAnalyzer.fs"/>
+        <Compile Include="Style\UnnecessaryParenthesesAnalyzer.fs"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(UseLocalAnalyzersSDK)' == 'true'">
